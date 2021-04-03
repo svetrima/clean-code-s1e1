@@ -108,7 +108,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-.create-item {
+.create__item {
   display: block;
   margin: 0 0 20px;
 }
@@ -151,12 +151,12 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-li > .btn.btn-delete:hover {
+li > .btn.btn__delete:hover {
   color: #cf2323;
 }
 
 .btn
-.btn-delete 
+.btn__delete 
 img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -164,7 +164,7 @@ img {
 }
 
 .btn
-.btn-delete 
+.btn__delete 
 img:hover {
   transform: rotateZ(0);
 }

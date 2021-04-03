@@ -23,7 +23,8 @@ body {
 
 @media (max-width:768px) {
 
-  .promo-example { text-align: center;
+  .promo-example {
+    text-align: center;
 }
 
 }
@@ -45,16 +46,16 @@ body {
 }
 
 ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 li, .task-title {
-  list-style:none;
+  list-style: none;
 }
 
 input, .btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -170,14 +171,14 @@ li > .btn.btn-delete:hover {
 /* Edit Task */
 
 ul li input[type="text"] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }

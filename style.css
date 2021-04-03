@@ -13,11 +13,13 @@ body {
   text-align: right;
 }
 
-.promo-example img {
+.promo-example 
+img {
   width: 100%;
 }
 
-.promo-example .more-inf {
+.promo-example 
+.more-inf {
   font-family: "fantasy", cursive;
 }
 
@@ -50,11 +52,13 @@ ul {
   padding: 0;
 }
 
-li, .task-title {
+li, 
+.task-title {
   list-style: none;
 }
 
-input, .btn{
+input, 
+.btn{
   outline: none;
 }
 
@@ -151,34 +155,43 @@ li > .btn.btn-delete:hover {
   color: #cf2323;
 }
 
-.btn.btn-delete img {
+.btn
+.btn-delete 
+img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.btn-delete img:hover {
+.btn
+.btn-delete 
+img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-#completed-tasks label {
+#completed-tasks 
+label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-ul li input[type="text"] {
+ul 
+li 
+input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode 
+input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode 
+label {
   display: none;
 }

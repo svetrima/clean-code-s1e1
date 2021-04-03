@@ -155,7 +155,7 @@ li >    input[type="text"] {
   color: #cf2323;
 }
 
-.btn__delete img {
+.btn.btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -181,13 +181,13 @@ input[type="text"] {
   display: none;
 }
 
-.edit-mode 
+.editMode 
 input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode 
+/* .edit-mode 
 label {
   display: none;
-}
+} */

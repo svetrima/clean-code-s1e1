@@ -136,11 +136,11 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+label:not(.create__item) {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -151,21 +151,17 @@ li >    input[type="text"] {
   width: 226px;
 }
 
-li > .btn.btn__delete:hover {
+.btn__delete:hover {
   color: #cf2323;
 }
 
-.btn
-.btn__delete 
-img {
+.btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn
-.btn__delete 
-img:hover {
+.btn__delete img:hover {
   transform: rotateZ(0);
 }
 
